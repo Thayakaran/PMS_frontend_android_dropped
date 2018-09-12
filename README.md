@@ -5,6 +5,7 @@
     Back-End    : NodeJS 8.12.0
     Database    : MongoDB 4.0
 ```
+
 ### Coding Conventions
 * Variable Names and Methods Names are Camel Cased. Ex: ```int screenWidth = 10; ```
 * Constants are Capitalized. Ex: ```public static final float PI = 3.14; ```
@@ -28,3 +29,12 @@ public String[] getSupplierItems(String supplierID, String materialType){
 * Exception handling should be there
 * Variables inside the classes should be private unless it is a constant. User getters and setters.
 * Try to use Immutable methods. 
+
+### Contributions
+| Contributor | Mainly Focused Role |
+| ----------- | -------- |
+| [Puvipavan P](https://github.com/Puvipavan) | Constructor  |
+| [Sankeethan N ](https://github.com/nsankeeth) | Accounting Staff & Login/Logout  |
+| [Suganya S](https://github.com/Sugan-s) | Supplier | 
+| [Thayakaran S](https://github.com/Thayakaran) | Management(Admin) | 
+| [Vithushan J](https://github.com/JegaVithu) | Site Manager |
