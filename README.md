@@ -29,6 +29,20 @@ public String[] getSupplierItems(String supplierID, String materialType){
 * Exception handling should be there
 * Variables inside the classes should be private unless it is a constant. User getters and setters.
 * Try to use Immutable methods. 
+Ex:
+```sh
+public void printSupplierDetails(String supplierID, String supplierName){
+    System.out.println(supplierID);
+    System.out.println(supplierName);
+}
+
+/* Instead of Above Method use Below Method */
+
+public void printSupplierDetails(Supplier supplier){
+    System.out.println(supplier.ID);
+    System.out.println(supplier.name);
+}
+```
 
 ### Contributions
 | Contributor | Mainly Focused Role |
